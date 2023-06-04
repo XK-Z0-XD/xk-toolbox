@@ -2,7 +2,8 @@
 
 ![codeql](https://github.com/XK-Z0-XD/xk-toolbox/actions/workflows/codeql.yml/badge.svg)
 ![Build & Test](https://github.com/XK-Z0-XD/xk-toolbox/actions/workflows/test.yml/badge.svg)
-![license](https://img.shields.io/github/license/XK-Z0-XD/xk-toolbox)
+[![license](https://img.shields.io/github/license/XK-Z0-XD/xk-toolbox)](https://github.com/XK-Z0-XD/xk-toolbox/)
+
 
 # xk-toolbox
 This is a Nodejs Package toolbox.
