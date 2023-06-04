@@ -1,0 +1,16 @@
+#   visual studio
+/.vs
+/.vscode
+/*.njsproj
+*.njsproj.user
+
+/.history
+*.code-workspace
+
+# windows
+*.cab
+*.lib
+
+#   github
+/.gitconfig
+/.github

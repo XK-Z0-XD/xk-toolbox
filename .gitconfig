@@ -1,0 +1,13 @@
+[information]
+
+[library]
+	main = 'lib/index.js'
+	conv = 'lib/conv/index.js' #conversion
+	financial = 'lib/fin/index.js' #financials module
+	ui = 'lib/ui/index.js' #ui module
+	util = 'lib/util/index.js'
+	terminal = ''lib/index.js'
+[utilities]
+	main = 'util/index.js'
+
+
