@@ -400,3 +400,10 @@ FodyWeavers.xsd
 #nodejs
 /node_modules
 /docs/npm*
+# documentations
+!docs/README.md
+!docs/CHANGELOG.md
+!docs/TODO.md
+!docs/HISTORY.md
+!docs/themes.md
+!docs/modules.md
