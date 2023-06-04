@@ -1,0 +1,27 @@
+{
+  "name": "xk-toolbox",
+  "version": "1.0.0",
+
+  "type": "module",
+  "description": "xk-toolbox. This package is a library for js modules and css styles. \n I am using this package to store my files for later projects. \n It should be more organized than my previous node library package. ",
+
+  "main": "server.js",
+  "author": {
+    "name": "xk-z0-xd eVmPr0gramm1ng@outlook.com https://github.com/XK-Z0-XD"
+  },
+  "bugs": {
+    "email": "eVmPr0gramm1ng@outlook.com",
+    "url": "https://github.com/XK-Z0-XD/xk-toolbox/issues"
+  },
+  "homepage": "https://github.com/XK-Z0-XD/xk-toolbox/#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/XK-Z0-XD/xk-toolbox.git"
+  },
+  "readme": "README.md",
+  "license": "ISC",
+"categories": ["Themes", "Visualization", "Formatters"],
+  "keywords": [ "toolbox", "xk toolbox" ],
+  "dependencies": {},
+  "devDependencies": {}
+}
