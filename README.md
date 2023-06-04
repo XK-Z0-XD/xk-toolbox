@@ -11,7 +11,7 @@ This is a Nodejs Package toolbox.
 - [`Repository`](https://github.com/XK-Z0-XD/xk-toolbox)
   - :arrow_forward: [`Issues`](https://github.com/XK-Z0-XD/xk-toolbox/issues)
   - :arrow_forward: [`projects`](https://github.com/XK-Z0-XD/xk-toolbox/projects)
-  - :arrow_forward: [organization](https://github.com/orgs/XK-Z0-XD)
+  - :arrow_forward: [`organization`](https://github.com/orgs/XK-Z0-XD)
 - [Documentation](docs/README.md)
   - [`NPM History`](docs/HISTORY.md)
   - [Security](SECURITY.md)
