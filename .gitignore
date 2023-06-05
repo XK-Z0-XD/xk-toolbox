@@ -407,3 +407,5 @@ FodyWeavers.xsd
 !docs/HISTORY.md
 !docs/themes.md
 !docs/modules.md
+*.njsproj
+*.njsproj.user
