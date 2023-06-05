@@ -14,3 +14,6 @@
 #   github
 /.gitconfig
 /.github
+# dirs/files
+!styles/
+*.html
