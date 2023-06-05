@@ -1,3 +1,4 @@
+# 
 [information]
 
 [library]
@@ -7,7 +8,6 @@
 	ui = 'lib/ui/index.js' #ui module
 	util = 'lib/util/index.js'
 	terminal = ''lib/index.js'
-[utilities]
-	main = 'util/index.js'
+
 
 
