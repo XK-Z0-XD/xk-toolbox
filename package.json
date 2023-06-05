@@ -3,7 +3,12 @@
   "version": "1.0.2",
   "type": "module",
   "description": "xk-toolbox. This package is a library for js modules and css styles. \n I am using this package to store my files for later projects. \n It should be more organized than my previous node library package. ",
-
+"scripts": {
+  "version": "",
+  "publish": "npm publish",
+  "test": "echo 'Hello World'"
+  
+},
   "main": "server.js",
   "author": {
     "name": "xk-z0-xd eVmPr0gramm1ng@outlook.com https://github.com/XK-Z0-XD"
