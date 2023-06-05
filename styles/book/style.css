@@ -1,0 +1,26 @@
+/**/
+
+@font-face {
+    font-family: 'underwood Champion';
+    src: url("../fonts/uwch.ttf") format(truetype);
+}
+
+:root{
+    --body-font: 'Lucinda Calligraphy';
+    --page-font: Georgia, 'Times New Roman', Times, serif;
+    --book-font: '' 
+}
+.book{
+
+}
+.page-container{
+display: block;
+background-image: linear-gradient(to top ,rgb(202, 219, 228) 0%, rgb(231, 233, 220) 8%);
+background-origin: padding-box;
+background-position: 0px 8px;
+background-repeat: repeat;
+font-family:fantasy;
+}
+.document{
+    
+}

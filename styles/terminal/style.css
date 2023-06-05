@@ -38,9 +38,14 @@
     --tf-default: Courier New, Courier, monospace;
     --t-caret: "\2588";
     --start: ">";
+    --rad-red: rgba(240, 25, 20, 0.75);
+    --rad-green: rgba(0, 100, 0, 0.75);
 }
 
 .red {
+    --bg: var(--terminal-red-b);
+    --color: var( --terminal-red-f);
+    --border-color: var( --terminal-red-f);
     color: var(--terminal-red-f);
     background-color: var(--terminal-red-b);
     border-color: var(--terminal-red-f);
@@ -57,11 +62,11 @@
     color: var(--terminal-blue-f);
 }
 
-h1, h2, h3, h4, h5, h6 {
+.term-container h1, h2, h3, h4, h5, h6 {
     font-family: 'Courier Prime', var(--tf-default);
 }
 
-p {
+.term-container p {
     font-family: VT323, cnr, var(--tf-default);
 }
 
@@ -69,17 +74,23 @@ p {
     display: block;
     height: 100%;
     width: 100%;
+    padding: 5px;
     font-family: VT323, 'Code New Roman',Courier New, Courier, monospace;
     background-color: rgb(0,0,0);
-    background-image: radial-gradient(rgba(0, 100, 0, 0.75), black 120%);
     color: rgb(255,255,255);
 }
-
+   
     .term-container::after {
         content: "";
         background: repeating-linear-gradient( 0deg, rgba(black, 0.15), rgba(black, 0.15) 1px, transparent 3px, transparent 2px );
     }
+    .term-container .green {
+    background-image: radial-gradient(var(--rad-green), black 120%);
+    }
+    .term-container .red{
+        background-image: radial-gradient(var(--rad-red), black 120%);
 
+    }
 .terminal {
     display: block;
     font-family: VT323, var(--tf-default);
@@ -129,3 +140,14 @@ p {
 
     .terminal #scan {
     }
+.typer {
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewrite 2.5s steps(40,end);
+}
+.typewriter .active::after{
+    
+}
+.loading{
+    animation: typewrite 5 step-end 1 infinite forwards;
+}

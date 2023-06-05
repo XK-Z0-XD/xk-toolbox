@@ -4,14 +4,14 @@
   "type": "module",
   "description": "xk-toolbox. This package is a library for js modules and css styles. \n I am using this package to store my files for later projects. \n It should be more organized than my previous node library package. ",
 "scripts": {
-  "version": "",
   "publish": "npm publish",
   "test": "echo 'Hello World'"
-  
 },
-  "main": "server.js",
+  "main": "lib/index.js",
   "author": {
-    "name": "xk-z0-xd eVmPr0gramm1ng@outlook.com https://github.com/XK-Z0-XD"
+    "name": "xk-z0-xd  ",
+    "email": "eVmPr0gramm1ng@outlook.com",
+    "url": "https://github.com/XK-Z0-XD"
   },
   "bugs": {
     "email": "eVmPr0gramm1ng@outlook.com",
@@ -25,11 +25,12 @@
   "readme": "README.md",
   "license": "MIT",
   "files": ["styles/", "test/", "src/", "lib/"],
-"maintainers": ["xk-z0-xd"],
+"maintainers": ["xk-z0-xd eVmPr0gramm1ng@outlook.com "],
 "directories": {
   "bin": "bin/",
   "lib": "lib/",
-  "test": "test/"
+  "test": "test/",
+  "doc": "docs/"
 },
 "icon": "docs/_media/favicon.gif",
   "categories": [ "Themes", "Visualization", "Formatters" ],
