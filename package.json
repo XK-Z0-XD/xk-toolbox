@@ -1,7 +1,6 @@
 {
   "name": "xk-toolbox",
   "version": "1.0.1",
-
   "type": "module",
   "description": "xk-toolbox. This package is a library for js modules and css styles. \n I am using this package to store my files for later projects. \n It should be more organized than my previous node library package. ",
 
@@ -20,13 +19,14 @@
   },
   "readme": "README.md",
   "license": "MIT",
-  "files": ["styles/", "test/", "src/", "lib"],
+  "files": ["styles/", "test/", "src/", "lib/"],
 "maintainers": ["xk-z0-xd"],
 "directories": {
   "bin": "bin/",
   "lib": "lib/",
   "test": "test/"
 },
+"icon": "docs/_media/favicon.gif",
   "categories": [ "Themes", "Visualization", "Formatters" ],
   "keywords": [ "toolbox", "xk toolbox" ],
   "dependencies": {},

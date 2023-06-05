@@ -1,0 +1,123 @@
+@import url(animations.css);
+@font-face {
+    font-family: VT323;
+    src: url(../fonts/VT323-Regular.ttf) format(truetype);
+}
+@font-face {
+    font-family: cnr;
+    src: url("../fonts/code-new-roman.regular.otf");
+}
+@font-face {
+    font-family: 'Courier Prime';
+    src: url("../fonts/CourierPrime-Regular.ttf");
+}
+@font-face {
+    font-family: Bitwise;
+    src: url("../fonts/bitwise.ttf");
+}
+@font-face {
+    font-family: 'Sharetech Mono' ;
+    src: url("../fonts/ShareTechMono-Regular.ttf");
+}
+:root{
+    --def-terminal-b: #000000;
+    --def-term-f: #ffffff;
+    --terminal-green-b: #114811;
+    --terminal-green-f: #00ff64;
+    --terminal-red-b: #5e0302;
+    --terminal-red-f: #f01914;
+    --terminal-blue-b: #3c3cff;
+    --terminal-blue-f: #64c8ff;
+    --tf-default: Courier New, Courier, monospace;
+    --t-caret: "\2588";
+    --start: ">";
+    
+}
+.red{
+    color: var(--terminal-red-f);
+background-color: var(--terminal-red-b);
+border-color: var(--terminal-red-f);
+
+}
+.green {
+    background-color: var(--terminal-green-b);
+    color: var(--terminal-green-f);
+    border-color: var(--terminal-green-f);
+}
+.blue{
+    background-color: var(--terminal-blue-b);
+    color: var(--terminal-blue-f);
+}
+
+h1, h2, h3, h4, h5, h6{
+font-family: 'Courier Prime', var(--tf-default);
+}
+p{
+    font-family: VT323, cnr, var(--tf-default);
+}
+.term-container {
+    display: block;
+    height: 100%;
+    width: 100%;
+    font-family: VT323, 'Code New Roman',Courier New, Courier, monospace;
+    background-color: rgb(0,0,0);
+    background-image: radial-gradient(rgba(0, 100, 0, 0.75), black 120%);
+    color: rgb(255,255,255);
+}
+
+    .term-container::after {
+        content: "";
+        background: repeating-linear-gradient( 0deg, rgba(black, 0.15), rgba(black, 0.15) 1px, transparent 3px, transparent 2px );
+    }
+
+.terminal {
+    display: block;
+    font-family: VT323, var(--tf-default);
+}
+
+    .terminal .containter {
+    }
+
+    .terminal .terminal-scan {
+    }
+
+    .terminal .lines {
+        background-image: repeating-linear-gradient( 0deg, rgba(black, 0.15), rgba(black, 0.15) 1px, transparent 1px, transparent 2px );
+    }
+
+    .terminal .containter .terminal-content {
+        overflow-y: auto;
+        
+    }
+
+    .terminal .message {
+        display: block;
+        position: absolute;
+        width: 25em;
+        height: 15em;
+        padding: 1em;
+        align-content: center;
+    }
+
+        .terminal .message .msg-content {
+            width: 100%;
+            height: 100%;
+            overflow-y: auto;
+            vertical-align: central;
+            text-align: center;
+        }
+
+
+    /*  Terminal Message Box */
+    .terminal .msg-box {
+        position: fixed;
+    }
+
+
+    .terminal #error {
+        border: 1px solid
+    }
+
+    .terminal #scan {
+    }
+
