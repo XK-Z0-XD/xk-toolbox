@@ -8,7 +8,7 @@
 :root{
     --body-font: 'Lucinda Calligraphy';
     --page-font: Georgia, 'Times New Roman', Times, serif;
-    --book-font: '' 
+    --book-font: 'Castellar', Georgia ;
 }
 .book{
 
