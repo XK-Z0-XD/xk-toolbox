@@ -20,6 +20,13 @@
   },
   "readme": "README.md",
   "license": "MIT",
+  "files": ["styles/", "test/", "src/", "lib"],
+"maintainers": ["xk-z0-xd"],
+"directories": {
+  "bin": "bin/",
+  "lib": "lib/",
+  "test": "test/"
+},
   "categories": [ "Themes", "Visualization", "Formatters" ],
   "keywords": [ "toolbox", "xk toolbox" ],
   "dependencies": {},

@@ -1,11 +1,11 @@
 <img src="./docs/_media/favicon.gif" width="96" alt="XK-Z0-XD">
 
-[![npm](https://img.shields.io/npm/v/xk-toolbox)](https://www.npmjs.com/package/xk-toolbox)
-
+[![npm](https://img.shields.io/npm/v/xk-toolbox)](https://www.npmjs.com/package/xk-toolbox) 
 ![codeql](https://github.com/XK-Z0-XD/xk-toolbox/actions/workflows/codeql.yml/badge.svg)
 ![Build & Test](https://github.com/XK-Z0-XD/xk-toolbox/actions/workflows/test.yml/badge.svg)
 [![license](https://img.shields.io/github/license/XK-Z0-XD/xk-toolbox)](https://github.com/XK-Z0-XD/xk-toolbox/)
-[![Stats](https://nodei.co/npm/tk-toolbox.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/terminal-kit)
+
+![status](https://nodei.co/npm/xk-toolbox.png)
 
 # xk-toolbox
 This is a Nodejs Package toolbox.
