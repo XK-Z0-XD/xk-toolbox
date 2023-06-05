@@ -41,7 +41,7 @@ This one should be more organized than my other packages.
 - When acessing the css styles:
   - HTML: 
   ``` 
-  <link rel="stylesheet" href="https://unpkg.com/browse/xk-toolbox@<version>/<theme>/style.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/xk-toolbox@<version>/<theme>/style.css"/>
   ```
   - javascript:
   ```
