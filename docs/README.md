@@ -3,7 +3,8 @@
 </p>
 
 # DOCUMENTATIONS
-
+- [modules](modules.md)
+- [css styles](css-styles.md)
 ## Modules:
 Conversions:
 - Tempurature:
