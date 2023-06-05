@@ -5,13 +5,60 @@
     <title>styles</title>
     <link rel="stylesheet" href="https://unpkg.com/xk-toolbox@1.0.2/styles/terminal/style.css" />
     <script src="https://kit.fontawesome.com/98e4c48f68.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/xk-toolbox@1.0.2/lib/test/index.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="./styles/terminal/style.css">
+    <link rel="stylesheet" href="./styles/book/style.css">
 
+    <script src="lib/test/index.js"></script>
+    <style>
+        header{
+            font-family: 'Courier New', Courier, monospace;
+            font-size: large;
+        }
+    </style>
+    <script type="module">
+        const test_ = require("test");
+        function dotest() {
+
+        };
+
+    </script>
 </head>
 <body>
-    <div class="term-container">
-        <h1>Terminal Style</h1>
-        <h2> Terminal Style</h2>
-
-    </div>
+    <header>
+        <h1> Styles</h1>
+    </header>
+    <section>
+        <h2>Terminal</h2>
+        <div class="term-container">
+            <div class="scan-line">
+                <div class="terminal">
+                    <h1>Heading 1</h1>
+                    <h2> Heading 2</h2>
+                    <h3> Heading 3</h3>
+                    <h4> Heading 4</h4>
+                    <h5>Heading 5</h5>
+                    <h6> Heading 6</h6>
+                    <p>Paragraph</p>
+                    <blockquote>Block Quote</blockquote>
+                    <blockquote id="output" >
+                        <p class="typer">This is a blockquote. Loading</p>      
+                    </blockquote>
+                </div>
+            </div>
+                      
+        </div>
+    </section>
+    <section>
+        <h2>Book Theme</h2>
+        <div class="book">
+            <h1>Book Style</h1>
+            <div class="page-container">
+                <div class="page">
+                    <h2></h2>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>

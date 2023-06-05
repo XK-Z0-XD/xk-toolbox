@@ -7,5 +7,6 @@
 }
 
 @keyframes scanner {
-    
+    from{ transform: translateY(-10%);}
+    to{  transform: translateY(5000%);}
 }

@@ -42,7 +42,7 @@
     --rad-green: rgba(0, 100, 0, 0.75);
 }
 
-.red {
+.t-red {
     --bg: var(--terminal-red-b);
     --color: var( --terminal-red-f);
     --border-color: var( --terminal-red-f);
@@ -51,23 +51,15 @@
     border-color: var(--terminal-red-f);
 }
 
-.green {
+.t-green {
     background-color: var(--terminal-green-b);
     color: var(--terminal-green-f);
     border-color: var(--terminal-green-f);
 }
 
-.blue {
+.t-blue {
     background-color: var(--terminal-blue-b);
     color: var(--terminal-blue-f);
-}
-
-.term-container h1, h2, h3, h4, h5, h6 {
-    font-family: 'Courier Prime', var(--tf-default);
-}
-
-.term-container p {
-    font-family: VT323, cnr, var(--tf-default);
 }
 
 .term-container {
@@ -79,27 +71,44 @@
     background-color: rgb(0,0,0);
     color: rgb(255,255,255);
 }
-   
+ 
+
     .term-container::after {
         content: "";
         background: repeating-linear-gradient( 0deg, rgba(black, 0.15), rgba(black, 0.15) 1px, transparent 3px, transparent 2px );
     }
-    .term-container .green {
+    .term-container .t-green {
     background-image: radial-gradient(var(--rad-green), black 120%);
     }
-    .term-container .red{
+    .term-container .t-red{
         background-image: radial-gradient(var(--rad-red), black 120%);
 
     }
+      
+div.term-container h1, h2, h3, h4, h5, h6 {
+    font-family: 'Courier Prime', var(--tf-default);
+text-align: center;
+}
+div.term-container h1::before, h2::before, h3::before,
+ h4::before, h5::before, h6::before {content:"--[";}
+ .term-container h1::after, h2::after, h3::after,
+ h4::after, h5::after, h6::after {content:"]--";}
+div.term-container p {
+    font-family:  cnr, var(--tf-default);
+}
 .terminal {
     display: block;
     font-family: VT323, var(--tf-default);
 }
 
-    .terminal .containter {
-    }
+    
 
-    .terminal .terminal-scan {
+    .terminal .scan-line {
+        width: 100%;
+        background:  linear-gradient(to bottom, rgba(56, 112, 82,0), rgba(56, 112, 82,0.1)) !important;
+        position: relative;
+        animation: scanner 12s linear 0s infinite;
+
     }
 
     .terminal .lines {
@@ -139,7 +148,9 @@
     }
 
     .terminal #scan {
+        animation: scanner 12s infinite;
     }
+    
 .typer {
     white-space: nowrap;
     overflow: hidden;
