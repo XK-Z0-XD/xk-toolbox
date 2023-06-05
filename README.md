@@ -45,5 +45,5 @@ This one should be more organized than my other packages.
   ```
   - javascript:
   ```
-  <script src="https://unpkg.com/browse/xk-toolbox@1.0.1/lib/<module-name>/index.js" type="module"></script>
+  <script src="https://unpkg.com/xk-toolbox@1.0.1/lib/<module-name>/index.js" type="module"></script>
   ```
