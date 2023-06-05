@@ -1,25 +1,32 @@
+@charset "utf-8";
 @import url(animations.css);
+
 @font-face {
     font-family: VT323;
     src: url(../fonts/VT323-Regular.ttf) format(truetype);
 }
+
 @font-face {
     font-family: cnr;
     src: url("../fonts/code-new-roman.regular.otf");
 }
+
 @font-face {
     font-family: 'Courier Prime';
     src: url("../fonts/CourierPrime-Regular.ttf");
 }
+
 @font-face {
     font-family: Bitwise;
     src: url("../fonts/bitwise.ttf");
 }
+
 @font-face {
-    font-family: 'Sharetech Mono' ;
+    font-family: 'Sharetech Mono';
     src: url("../fonts/ShareTechMono-Regular.ttf");
 }
-:root{
+
+:root {
     --def-terminal-b: #000000;
     --def-term-f: #ffffff;
     --terminal-green-b: #114811;
@@ -31,30 +38,33 @@
     --tf-default: Courier New, Courier, monospace;
     --t-caret: "\2588";
     --start: ">";
-    
 }
-.red{
-    color: var(--terminal-red-f);
-background-color: var(--terminal-red-b);
-border-color: var(--terminal-red-f);
 
+.red {
+    color: var(--terminal-red-f);
+    background-color: var(--terminal-red-b);
+    border-color: var(--terminal-red-f);
 }
+
 .green {
     background-color: var(--terminal-green-b);
     color: var(--terminal-green-f);
     border-color: var(--terminal-green-f);
 }
-.blue{
+
+.blue {
     background-color: var(--terminal-blue-b);
     color: var(--terminal-blue-f);
 }
 
-h1, h2, h3, h4, h5, h6{
-font-family: 'Courier Prime', var(--tf-default);
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Courier Prime', var(--tf-default);
 }
-p{
+
+p {
     font-family: VT323, cnr, var(--tf-default);
 }
+
 .term-container {
     display: block;
     height: 100%;
@@ -87,7 +97,6 @@ p{
 
     .terminal .containter .terminal-content {
         overflow-y: auto;
-        
     }
 
     .terminal .message {
@@ -120,4 +129,3 @@ p{
 
     .terminal #scan {
     }
-
