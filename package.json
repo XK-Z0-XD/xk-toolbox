@@ -8,6 +8,11 @@
     "test": "echo 'Hello World'"
   },
   "main": "lib/index.js",
+  "exports": {
+    ".": {
+      ""
+    }
+  },
   "author": {
     "name": "xk-z0-xd",
     "email": "eVmPr0gramm1ng@outlook.com",
@@ -30,11 +35,14 @@
     "bin": "bin/",
     "lib": "lib/",
     "test": "test/",
-    "doc": "docs/"
+    "doc": "docs/",
+    "example": "examples/"
   },
   "icon": "docs/_media/favicon.gif",
   "categories": [ "Themes", "Visualization", "Formatters" ],
   "keywords": [ "toolbox", "xk toolbox" ],
-  "dependencies": {},
-  "devDependencies": {}
+  "dependencies": { "jquery": "3.7.0" },
+  "devDependencies": {
+    
+  }
 }
