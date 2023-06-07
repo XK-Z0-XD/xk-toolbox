@@ -1,15 +1,15 @@
 {
   "name": "xk-toolbox",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "type": "module",
-  "description": "xk-toolbox. This package is a library for js modules and css styles. \n I am using this package to store my files for later projects. \n It should be more organized than my previous node library package. ",
-"scripts": {
-  "publish": "npm publish",
-  "test": "echo 'Hello World'"
-},
+  "description": "xk-toolbox. This package is a library for js modules and css styles. \n This package will be used to store any files/styles/modules for later projects. \n It should be more organized than previous node library package.\nNOTE: It is NOT recommended to install the whole package(Because this package may contain alot of files).  ",
+  "scripts": {
+    "publish": "npm publish",
+    "test": "echo 'Hello World'"
+  },
   "main": "lib/index.js",
   "author": {
-    "name": "xk-z0-xd  ",
+    "name": "xk-z0-xd",
     "email": "eVmPr0gramm1ng@outlook.com",
     "url": "https://github.com/XK-Z0-XD"
   },
@@ -24,15 +24,15 @@
   },
   "readme": "README.md",
   "license": "MIT",
-  "files": ["styles/", "test/", "src/", "lib/"],
-"maintainers": ["xk-z0-xd eVmPr0gramm1ng@outlook.com "],
-"directories": {
-  "bin": "bin/",
-  "lib": "lib/",
-  "test": "test/",
-  "doc": "docs/"
-},
-"icon": "docs/_media/favicon.gif",
+  "files": [ "styles/", "test/", "src/", "lib/public/" ],
+  "maintainers": [ "xk-z0-xd eVmPr0gramm1ng@outlook.com " ],
+  "directories": {
+    "bin": "bin/",
+    "lib": "lib/",
+    "test": "test/",
+    "doc": "docs/"
+  },
+  "icon": "docs/_media/favicon.gif",
   "categories": [ "Themes", "Visualization", "Formatters" ],
   "keywords": [ "toolbox", "xk toolbox" ],
   "dependencies": {},

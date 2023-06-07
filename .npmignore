@@ -17,3 +17,4 @@
 # dirs/files
 !styles/
 *.html
+*.code-workspace
