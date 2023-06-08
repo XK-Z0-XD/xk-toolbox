@@ -7,6 +7,11 @@
     "test": "echo 'Hello World'"
   },
   "main": "lib/index.js",
+  "engines": {
+    "node": "^19.9.0",
+    "vscode": "^1.22.0"
+  },
+
   "author": {
     "name": "xk-z0-xd",
     "email": "eVmPr0gramm1ng@outlook.com",
@@ -22,6 +27,7 @@
     "url": "https://github.com/XK-Z0-XD/xk-toolbox.git"
   },
   "readme": "README.md",
+
   "license": "MIT",
   "files": [
     "styles/",
