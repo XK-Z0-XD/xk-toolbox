@@ -1,0 +1,16 @@
+{
+  "main-badge": {
+    "schemaVersion": 1,
+    "label": "XK-Z0-XD",
+    "message": "xk-toolbox",
+    "color": "#114811",
+    "labelColor": "00ff64",
+    "namedLogo":"",
+    "logoSvg": "_media/icon.svg",
+    "logoColor": "64c8ff",
+    "style": "flat"
+  },
+  "pull-requests":{}
+  
+
+}
