@@ -8,11 +8,6 @@
     "test": "echo 'Hello World'"
   },
   "main": "lib/index.js",
-  "exports": {
-    ".": {
-      ""
-    }
-  },
   "author": {
     "name": "xk-z0-xd",
     "email": "eVmPr0gramm1ng@outlook.com",
@@ -29,8 +24,15 @@
   },
   "readme": "README.md",
   "license": "MIT",
-  "files": [ "styles/", "test/", "src/", "lib/public/" ],
-  "maintainers": [ "xk-z0-xd eVmPr0gramm1ng@outlook.com " ],
+  "files": [
+    "styles/",
+    "test/",
+    "src/",
+    "lib/public/"
+  ],
+  "maintainers": [
+    "xk-z0-xd eVmPr0gramm1ng@outlook.com "
+  ],
   "directories": {
     "bin": "bin/",
     "lib": "lib/",
@@ -39,10 +41,16 @@
     "example": "examples/"
   },
   "icon": "docs/_media/favicon.gif",
-  "categories": [ "Themes", "Visualization", "Formatters" ],
-  "keywords": [ "toolbox", "xk toolbox" ],
-  "dependencies": { "jquery": "3.7.0" },
-  "devDependencies": {
-    
+  "categories": [
+    "Themes",
+    "Visualization",
+    "Formatters"
+  ],
+  "keywords": [
+    "toolbox",
+    "xk toolbox"
+  ],
+  "dependencies": {
+    "jquery": "^3.7.0"
   }
 }
