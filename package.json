@@ -4,7 +4,7 @@
   "type": "module",
   "description": "xk-toolbox. This package is a library for js modules and css styles. \n This package will be used to store any files/styles/modules for later projects. \n It should be more organized than previous node library package.\nNOTE: It is NOT recommended to install the whole package(Because this package may contain alot of files).  ",
   "scripts": {
-    "publish": "npm publish",
+    "start": "scripts/start.js",
     "test": "echo 'Hello World'"
   },
   "main": "lib/index.js",
@@ -28,7 +28,7 @@
     "styles/",
     "test/",
     "src/",
-    "lib/public/"
+    "lib/"
   ],
   "maintainers": [
     "xk-z0-xd eVmPr0gramm1ng@outlook.com "
@@ -52,5 +52,6 @@
   ],
   "dependencies": {
     "jquery": "^3.7.0"
-  }
+  },
+  "devDependencies": {}
 }
