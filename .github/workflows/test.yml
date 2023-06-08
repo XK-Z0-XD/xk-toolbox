@@ -1,5 +1,5 @@
 # Build and Test Workflow
-name: Build & Test
+name: Test
 
 # Controls when the action will run. Workflow runs when manually triggered using the UI
 # or API.
@@ -16,10 +16,6 @@ on:
         required: false
         # The data type of the input
         type: string
-      version:
-        description: 'Nodejs Version'
-        default: [19.x]
-        required: true
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -39,7 +35,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [${inputs.version}]
+        node-version: [19.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
