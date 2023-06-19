@@ -33,6 +33,7 @@
     "styles/",
     "test/",
     "src/",
+    "assets/",
     "lib/"
   ],
   "maintainers": [
