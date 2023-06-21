@@ -1,6 +1,6 @@
 {
   "name": "xk-toolbox",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "type": "module",
   "description": "xk-toolbox. This package is a library for js modules and css styles. \n This package will be used to store any files/styles/modules for later projects. \n It should be more organized than previous node library package.\nNOTE: It is NOT recommended to install the whole package(Because this package may contain alot of files). If you wish to access the conent in this package, Please Read the README fole on the Homepage. Thank You! ",
   "scripts": {

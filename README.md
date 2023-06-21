@@ -50,14 +50,14 @@ If you want to access the stylesheets, you can use the copy & paste the link bel
   ``` 
   <link rel="stylesheet" href="https://unpkg.com/xk-toolbox@<version>/<theme>/style.css"/>
   ```
+  scripts:
 
   ```
-  <script src="https://unpkg.com/xk-toolbox@1.0.1/lib/<module-name>/index.js"></script>
+  <script src="https://unpkg.com/xk-toolbox@1.0.1/lib/<module-name>/file.js"></script>
   ```
 fontawesome kit:
-
-  ```
-  <script src="https://unpkg.com/xk-toolbox@1.0.1/lib/<module-name>/index.js"></script>
+ ``` 
+  <link rel="stylesheet" href="https://unpkg.com/xk-toolbox@<version>/assets/fontawesome/css/all.css"/>
   ```
 
 
