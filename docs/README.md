@@ -34,4 +34,5 @@ Software Used:
 
 ##  Links
 
-![badge](https://custom-icon-badges.demolab.com/static/v1?label&message=xk-toolbox&color=114811&logo=repo)
+![badge](https://custom-icon-badges.demolab.com/static/v1?label&message=xk-toolbox&color=114811&logo=module)
+![b](https://img.shields.io/static/v1/)
