@@ -19,3 +19,19 @@ Software Used:
   - git bash (latest version)
 - Icon:
   - Junior Icon Editor
+
+## Directories:
+| File Directory | Description |
+| -------------- | ----------- |
+| assets/ | fontawesome kit, configurations, and  |
+| lib/ |  javascript modules |
+| test/ | for test scripts |
+| src/ | for js source script |
+| styles/ | css/scss/less files, font files |
+| docs/ | documentaion files |
+| .vscode | for visual studio code |
+| .github | for github workflows |
+
+##  Links
+
+![badge](https://custom-icon-badges.demolab.com/static/v1?label&message=xk-toolbox&color=114811&logo=repo)
