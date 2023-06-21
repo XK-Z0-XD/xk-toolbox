@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "label": "hello",
+  "message": "sweet world",
+  "color": "orange",
+  "labelColor":"gray",
+  "isError":false,
+  "namedLogo":"none",
+  "logoSvg":"nane",
+  "logoColor":"",
+  "logoPosition":"none",
+"style":"flat"
+}

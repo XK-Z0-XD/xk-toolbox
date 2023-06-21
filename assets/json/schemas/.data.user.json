@@ -1,0 +1,31 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "user-data-schema",
+  "properties": {
+    "username": {
+      "$comment": "username",
+      "type": "string",
+      "default": "user123"
+
+    },
+    "email": {
+      "type": "string",
+      "format": "email"
+    },
+    "phone": {
+      "$comment": "Phone Number",
+      "type": "object",
+      "properties": {
+
+      }
+    },
+    "date-joined": {
+      "type": "string",
+      "format": "date"
+    },
+    ""
+
+
+
+  }
+}
