@@ -1,0 +1,22 @@
+{
+  "name": "xk-toolbox",
+  "version": "1.0.0",
+  "description": "my library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"TO BE IMPLEMENTED\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XK-Z0-XD/xk-toolbox.git"
+  },
+  "keywords": [
+    "style"
+  ],
+  "author": "em9836",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/XK-Z0-XD/xk-toolbox/issues"
+  },
+  "homepage": "https://github.com/XK-Z0-XD/xk-toolbox#readme"
+}
