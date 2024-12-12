@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/XK-Z0-XD/xk-toolbox/issues"
   },
-  "homepage": "https://github.com/XK-Z0-XD/xk-toolbox#readme"
+  "homepage": "https://github.com/XK-Z0-XD/xk-toolbox#readme",
+  "devDependencies": {
+    "@types/webpack": "^5.28.5",
+    "webpack": "^5.97.1"
+  }
 }
