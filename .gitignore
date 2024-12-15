@@ -2,5 +2,7 @@
 **/*.*.map
 **/dist
 **/build
+/bin
+/downloaded_assets
 
 
