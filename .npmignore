@@ -9,6 +9,7 @@ src/**/*.sh
 /.gitmodules
 /packages
 /config
+/docs/
 /.git*
 #   visual studio
 ## Ignore Visual Studio temporary files, build results, and
