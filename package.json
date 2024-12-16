@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "description": "my library",
   "main": "src/lib/index.js",
-  "bin":{
-    "gen-sass": "bin/generate_sass.js"
+  "bin": {
+    "xk-sass-gen": "bin/generate_sass.js"
   },
   "scripts": {
     "build": "node scripts/build.js",
@@ -25,11 +25,13 @@
   },
   "homepage": "https://github.com/XK-Z0-XD/xk-toolbox#readme",
   "dependencies": {
-    "jquery": "^3.7.1"
+    "jquery": "^3.7.1",
+    "jsdom": "^25.0.1"
   },
   "devDependencies": {
     "@types/webpack": "^5.28.5",
     "sass": "^1.83.0",
+    "ts-loader": "^9.5.1",
     "typescript": "^5.7.2",
     "webpack": "^5.97.1",
     "wepack-cli": "^0.0.1-security"

@@ -3,12 +3,11 @@
 </div>
 
 [![npm][npm]][npm-url]
-[![node]][node-url]
-
+[![node][node]][node-url]
 [![status][status]](https://nodei.co/npm/xk-toolbox)
 
-<!-- [npm]: https://img.shields.io/npm/v/ -->
-[npm]: https://img.shields.io/npm/v/webpack.svg
+
+[npm]: https://img.shields.io/npm/v/xk-toolbox.svg
 [npm-url]: https://npmjs.com/package/xk-toolbox
 [status]: https://nodei.co/npm/xk-toolbox.png?downloads=true&downloadRank=true&stars=true
 [nodei]: https://nodei.co/npm/xk-toolbox
