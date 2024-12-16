@@ -1,2 +1,5 @@
 export const id = "terminal";
-export * from "./gui/index";
+import Terminal from "./Terminal";
+// export * from "./gui/index";
+export { Terminal };
+

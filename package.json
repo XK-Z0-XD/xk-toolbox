@@ -2,12 +2,14 @@
   "name": "xk-toolbox",
   "version": "0.1.0",
   "description": "my library",
-  "main": "src/lib/index.js",
+  "main": "src/lib/index.ts",
   "bin": {
     "xk-sass-gen": "bin/generate_sass.js"
   },
   "scripts": {
+    "build3": "webpack",
     "build": "node scripts/build.js",
+    "build2": "node scripts/build2.js",
     "sass": "node bin/script.js terminal",
     "test": "echo TO BE IMPLEMENTED"
   },
@@ -29,11 +31,14 @@
     "jsdom": "^25.0.1"
   },
   "devDependencies": {
+    "@types/node": "^22.10.2",
     "@types/webpack": "^5.28.5",
     "sass": "^1.83.0",
     "ts-loader": "^9.5.1",
+    "ts-node": "^10.9.2",
     "typescript": "^5.7.2",
     "webpack": "^5.97.1",
+    "webpack-cli": "^5.1.4",
     "wepack-cli": "^0.0.1-security"
   }
 }

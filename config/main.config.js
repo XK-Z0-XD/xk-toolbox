@@ -12,7 +12,7 @@ const getConfig = (root) => {
     },
     build: {
       jsm: resolve(output, "jsm"),
-      styles: resolve(output, "css"),
+      styles: resolve(output, "styles"),
     },
   };
 };

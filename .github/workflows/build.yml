@@ -1,9 +1,10 @@
 # Build Workflow
 name: Build
 on:
-  push:
-    branches: ["main"]
   workflow_dispatch:
+  # push:
+    # branches: ["main"]
+  
 jobs:
   build:
     runs-on: ubunut-latest
