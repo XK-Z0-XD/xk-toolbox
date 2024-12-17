@@ -1,15 +1,12 @@
 {
   "name": "xk-toolbox",
   "version": "0.1.0",
-  "description": "my library",
+  "description": "use the bin",
   "main": "src/lib/index.ts",
   "bin": {
     "xk-toolbox": "bin/index.js"
   },
   "scripts": {
-    "build3": "webpack",
-    "build": "node scripts/build.js",
-    "build2": "node scripts/build2.js",
     "sass": "node bin/script.js terminal",
     "test": "echo TO BE IMPLEMENTED"
   },
@@ -32,19 +29,15 @@
     "url": "https://github.com/XK-Z0-XD/xk-toolbox/issues"
   },
   "homepage": "https://github.com/XK-Z0-XD/xk-toolbox#readme",
-  "dependencies": {
-    "copy-webpack-plugin": "^12.0.2",
-    "jquery": "^3.7.1",
-    "jsdom": "^25.0.1"
-  },
-  "directories": {
-    "bin": "bin/",
-    "doc": "docs/",
-    "lib": "src/lib"
-  },
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "copy-webpack-plugin": "^12.0.2",
+    "jquery": "^3.7.1",
+    "jsdom": "^25.0.1"
   },
   "devDependencies": {
     "@types/node": "^22.10.2",

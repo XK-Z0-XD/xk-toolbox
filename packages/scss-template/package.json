@@ -11,6 +11,7 @@
     "url": "git+https://github.com/XK-Z0-XD/xk-toolbox.git",
     "directory": "packages/scss-template"
   },
+  "files": ["template"],
   "keywords": [
     "scss",
     "template"
