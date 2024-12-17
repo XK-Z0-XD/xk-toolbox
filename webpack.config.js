@@ -2,6 +2,7 @@
 const path = require("path");
 const paths = require("./config/paths.config");
 const pkgConfig = require("./package.json");
+const CopyWebpackPlugin  = require("copy-webpack-plugin");
 const main = require("./config/main.config")(process.cwd());
 const resolvePath = (...paths) => path.resolve(...paths);
 const src = path.resolve(__dirname, "src"),
@@ -64,7 +65,16 @@ const factory = () => {
         },
       ],
     },
-    plugins: [],
+    plugins: [
+      new CopyWebpackPlugin({
+        options: {
+          
+        },
+        patterns: [
+          {}
+        ]
+      })
+    ],
   };
 };
 

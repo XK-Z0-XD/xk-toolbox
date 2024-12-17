@@ -65,7 +65,4 @@ if (args.length > 2) {
   log(dir);
   let fp = path.resolve(root, dir);
    generate(dir);
-//   if (fs.statSync(fp).isDirectory() === true) {
-   
-//   }
 } else console.log("specify directory name");
