@@ -408,9 +408,12 @@ FodyWeavers.xsd
 !docs/HISTORY.md
 !docs/themes.md
 !docs/modules.md
+docs/
 #   github
 /.gitconfig
 /.github
+/.gitmodules
+/
 **/*.git*
 
 # dirs/files
@@ -418,3 +421,7 @@ FodyWeavers.xsd
 *.html
 *.code-workspace
 downloaded_assets/
+packages/
+src/
+config/
+webpack.config.js/
