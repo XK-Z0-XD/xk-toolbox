@@ -1,0 +1,15 @@
+[submodule "gui-library"]
+	path = packages/xk-gui-lib
+	url = git://github.com/XK-Z0-XD/xk-toolbox.git
+[submodule "themes"]
+	path = packages/themes
+	url = git://github.com/XK-Z0-XD/xk-toolbox.git
+[submodule "scss-template"]
+	path = packages/scss-template
+	url = git://github.com/XK-Z0-XD/xk-toolbox.git
+[submodule "css-template"]
+	path = packages/css-template
+	url = git://github.com/XK-Z0-XD/xk-toolbox.git
+[submodule "terminal"]
+	path = packages/terminal
+	url = git://github.com/XK-Z0-XD/xk-toolbox.git
