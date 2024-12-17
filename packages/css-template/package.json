@@ -1,0 +1,24 @@
+{
+  "name": "scss-template",
+  "version": "0.1.0",
+  "description": "base template for scss",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XK-Z0-XD/xk-toolbox.git",
+    "directory": "packages/scss-template"
+  },
+  "keywords": [
+    "scss",
+    "template"
+  ],
+  "author": "em9836",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/XK-Z0-XD/xk-toolbox/issues"
+  },
+  "homepage": "https://github.com/XK-Z0-XD/xk-toolbox#readme"
+}
