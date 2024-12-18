@@ -2,24 +2,33 @@
 name: Build
 on:
   workflow_dispatch:
+    inputs:
+      name:
+        # Friendly description to be shown in the UI instead of 'name'
+        description: 'Person to greet'
+        # Default value if no value is explicitly provided
+        default: 'World'
+        # Input has to be provided for the workflow to run
+        required: true
+        # The data type of the input
+        type: string
   # push:
     # branches: ["main"]
   
 jobs:
   build:
-    runs-on: ubunut-latest
-    
-    # strategy:
-    #   matrix:
-    #     node-version:
-    #       [20.x]
-    #       # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
-    # steps:
-    #   - uses: actions/checkout@v3
-    #   - name: Use Node.js ${{ matrix.node-version }}
-    #     uses: actions/setup-node@v3
-    #     with:
-    #       node-version: ${{ matrix.node-version }}
-    #       cache: "npm"
-    #   - run: npm i
-    #   - run: npm run build 
+    runs-on: ubunut-latest    
+    strategy:
+      matrix:
+        node-version:
+          [20.x]
+          # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
+    steps:
+      - uses: actions/checkout@v3
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: "npm"
+      - run: npm i
+      - run: npm run build 
